@@ -1,0 +1,23 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e9fff5;
+}
+.boxes-container {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 50%;
+  height: 50%;
+}
+.box-green {
+  background-color: #1b7e03;
+  border: 1px #ffffff solid;
+}
+.box-orange {
+  background-color: orange;
+  border: 1px #ffffff solid;
+}
